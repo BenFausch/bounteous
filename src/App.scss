@@ -1,0 +1,26 @@
+
+/*For something larger, this would be broken out into individual components*/
+
+$red:#ff9000;
+$cream:#fffffd;
+$black:#000001;
+
+html,body{
+    background-color: $cream;
+    margin:0;
+}
+.App{
+  .error-container{
+    color:$red;    
+  }
+  .shows-list{
+    li{
+      display: flex;
+      flex-direction:column;
+      hr{
+        border-bottom:1px dashed $black;
+        width:100%;
+      }
+    }
+  }
+}
